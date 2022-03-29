@@ -219,7 +219,7 @@ body{
 }
 #contants2> h2{
   font-size: 36px;
-  margin-top: 150px;
+  margin-top: 200px;
   margin-bottom: 50px;
 }
 #contants2 ul{
@@ -291,6 +291,8 @@ body{
   background: #8A546C;
   color: #fff;
   cursor: pointer;
+  border: none;
+  margin-left: 1em;
 }
 
 .franchise .ask-btn {
@@ -526,6 +528,7 @@ body{
   height: 30px;
   margin-left: 40px;
   color: #fff;
+  border: none;
   background-color: #5B1333;
 }
 .pad{
