@@ -360,6 +360,8 @@ header > h1 >a >img {
   border-radius: 10px;
   color: #000;
   cursor: pointer;
+  text-align: center;
+  line-height: 45px;
 }
 
 /* 여기까지 컨텐츠 */
