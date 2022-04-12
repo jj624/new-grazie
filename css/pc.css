@@ -94,13 +94,13 @@ body{
     /* background: #ccc; */
   }
   .swiper .swiper-slide.s1{
-    background-image: url(../images/main-visual.jpg);
+    background-image: url(../images/main-visual01.jpg);
     background-size: cover;
     background-position: center;
   }
   
   .swiper .swiper-slide.s2{
-    background-image: url(../images/main-visual_2.jpg);
+    background-image: url(../images/main-visual02.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -557,7 +557,7 @@ text-align: center;
   color: #fff;
   text-align: center;
 }
-.top-table .notice-date{
+.top-table{
   padding-right: 50px;
   text-align: center;
 }
@@ -565,16 +565,26 @@ table th,td{
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
 table th,td:first-child{
   padding: 20px
 }
 .notice-num{
-  padding-left: 40px;
+  padding-left: 20px;
 }
+
+#notice tr td a {
+  color: #000;
+}
+
+.notice-date {
+  padding-right: 20px;
+}
+
 .notice-title{
   text-align: center;
-  padding-left: 475px;
-  padding-right: 475px;
+  padding-left: 470px;
+  padding-right: 470px;
 }
 .page-num{
   padding-top: 40px;
@@ -597,4 +607,8 @@ table th,td:first-child{
 }
 #win-now.on{
   display: block;
+}
+
+#main #notice {
+  margin: 0 auto;
 }
